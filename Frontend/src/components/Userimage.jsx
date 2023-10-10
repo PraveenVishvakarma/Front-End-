@@ -8,7 +8,7 @@ const Userimage= ({image, size="60px"})=>{
             width={size}
             height={size}
             alt="user"
-            src={`http://localhost:3000/assets/${image}`}
+            src={`https://mern-app-ug33.onrender.com/assets/${image}`}
           />
 
         </Box>

@@ -65,7 +65,7 @@ const Form=()=>{
         formData.append("picturePath", values.picture.name);
 
         const savedUserResponse= await fetch(
-            "http://localhost:3000/auth/register",
+            "https://mern-app-ug33.onrender.com/auth/register",
             {
                 method: "POST",
                 body:formData
@@ -82,7 +82,7 @@ const Form=()=>{
 
     const login= async (value, onSubmitProps)=>{
         const loggedInResponse= await fetch(
-            "http://localhost:3000/auth/login",
+            "https://mern-app-ug33.onrender.com/auth/login",
             {
                 method: "POST",
                 headers:{ "content-Type": "application/json" },
